@@ -1,4 +1,4 @@
-abstract type BH_Parameters end
+# abstract type BH_Parameters end
 @kwdef struct BH_Trim <: BH_Parameters
     nmax::StateType = 1 # nmax must be implemented
     Lx::IndexType = 0 # the size should also be implemented
